@@ -1,0 +1,45 @@
+.container {
+  width: 1200px;
+  margin: 110px 40px;
+
+  section {
+    margin: 110px 0;
+  }
+}
+
+.part1-left div,
+.part2-h2,
+.part3,
+.part4-choose,
+.part4-p,
+.part5-container,
+.part6-text,
+.part6-row-1,
+.part6-row-2,
+.part6-row-3,
+.part7-h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.part1,
+.part1-right,
+.part2-row,
+.part2-left-top,
+.part2-left-bottom,
+.part2-right-top,
+.part2-right-bottom,
+.part2-h2,
+.part4-top-left,
+.part4-top-right,
+.part4-bottom-left,
+.part4-bottom-right,
+.part4-top,
+.part4-bottom,
+.part6-row,
+.part8-row {
+  display: flex;
+  flex-direction: row;
+}

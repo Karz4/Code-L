@@ -1,0 +1,138 @@
+.title-contact-h2 {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+}
+
+.con1 {
+  width: 1200px;
+  margin: 100px 40px;
+  display: flex;
+  flex-direction: row;
+
+  .con1-left {
+    width: 50%;
+
+    .con1-p {
+      margin: 20px 10px;
+      font-size: 14px;
+      line-height: 24px;
+      color: #a5a5a5;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+
+      .contact-adress,
+      .contact-phone,
+      .contact-email,
+      .contact-follow {
+        margin: 20px 10px;
+
+        h3 {
+          font-size: 17px;
+          font-weight: 600;
+          margin-bottom: 19px;
+          font-family: "Poppins", sans-serif;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 24px;
+          color: #a5a5a5;
+          font-family: "Poppins", sans-serif;
+        }
+
+        span {
+          font-size: 14px;
+          line-height: 1;
+          font-family: "Poppins", sans-serif;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: #a68046;
+        }
+
+        ul {
+          list-style: none;
+          margin: 0;
+          display: flex;
+          flex-direction: row;
+
+          li {
+            margin: 10px;
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .con1-right {
+    width: 50%;
+
+    .contact-row {
+      margin-top: 100px;
+    }
+
+    .contact-row-1,
+    .contact-row-2,
+    .contact-row-3,
+    .contact-row-4 {
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+
+      .contact-first,
+      .contact-last {
+        & input {
+          border: 2px solid #dbd6d6;
+          padding: 10px;
+          display: inline-block;
+          margin: 10px;
+          width: 250px;
+          height: 50px;
+          outline-color: #a68046;
+        }
+      }
+      .contact-area {
+        & textarea {
+          padding: 10px;
+          width: 520px;
+          height: 120px;
+          border: 2px solid #dbd6d6;
+          margin: 10px;
+          outline-color: #a68046;
+          font-size: 14px;
+
+          font-family: "Poppins", sans-serif;
+        }
+      }
+
+      .contact-submit {
+        & input {
+          width: 520px;
+          height: 50px;
+          background-color: black;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 700;
+          font-family: "Poppins", sans-serif;
+          border-radius: 2px;
+          border: 0;
+          transition: all 0.3s linear;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #a68046;
+          }
+        }
+      }
+    }
+  }
+}

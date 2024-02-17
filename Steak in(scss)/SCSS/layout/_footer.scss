@@ -1,0 +1,116 @@
+footer {
+  width: 1200px;
+  margin: 20px 40px;
+  background-color: rgb(34, 34, 34);
+
+  .top-con {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    .row {
+      width: 30%;
+      margin: 50px;
+
+      .sosials-sm ul,
+      .sticker-row,
+      .nes-sub,
+      .nes-sub .submit-text {
+        margin-top: 20px;
+      }
+
+      .sticker-row {
+        margin-top: 100px;
+      }
+
+      .text-row {
+        color: rgba(255, 255, 255, 0.55);
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        line-height: 1.692;
+      }
+
+      .sosials-sm {
+        font-size: x-small;
+        color: #fff;
+      }
+
+      .nes-sub {
+        color: #fff;
+        h2 {
+          font-size: medium;
+        }
+      }
+      .sosials-sm ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+
+        li {
+          font-size: 1.2rem;
+          color: #fff;
+          background-color: rgb(20, 20, 20);
+          padding: 10px;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+
+.email-text input {
+  overflow: visible;
+  touch-action: manipulation;
+  border-radius: 1px;
+  height: 51px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s linear 0ms;
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+  padding: 0.7em;
+  display: block;
+  border: 1px;
+  color: #444;
+  border-color: #ddd;
+  background-color: #f4f4f4;
+  background-image: none;
+  text-shadow: none;
+  font-size: 1em;
+  margin: 0;
+  line-height: normal;
+  box-sizing: border-box;
+}
+
+.email-text {
+  margin-bottom: 5px;
+}
+
+.submit-s input {
+  touch-action: manipulation;
+  text-transform: uppercase;
+  transition: all 0.3s linear 0ms;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 0.7em;
+  display: block;
+  border: 1px;
+  border-color: #ddd;
+  background-image: none;
+  text-shadow: none;
+  font-size: 1em;
+  line-height: normal;
+  box-sizing: border-box;
+  background-color: #444;
+  color: #fff;
+  width: auto;
+  height: auto;
+  margin: 0;
+  position: inherit;
+}
